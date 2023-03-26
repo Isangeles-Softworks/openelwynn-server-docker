@@ -1,13 +1,13 @@
 ## Introduction
-This is the repository for Docker image of [OpenElwynn](https://github.com/isangeles-softworks/openelwynn) game server.
+This is the repository for the Docker image of [OpenElwynn](https://github.com/isangeles-softworks/openelwynn) game server.
 
-Image uses [Fire](https://github.com/isangeles/fire) as a game server
+Image uses [Fire](https://github.com/isangeles/fire) as a game server.
 
-Image installs the latests [Fire](https://github.com/isangeles/fire) server, pulls the game [content](https://github.com/isangeles/elwynn), and builds the game server.
+Image installs the latest [Fire](https://github.com/isangeles/fire) server, pulls the game [content](https://github.com/isangeles/elwynn), and builds the game server.
 
 Exposed port `8000` is used for server connection.
 
-For more information about server capabilities read [Fire](https://github.com/isangeles/fire) repository description.
+For more server information capabilities read [Fire](https://github.com/isangeles/fire) repository description.
 ## Build & Run
 Build the image:
 ```
@@ -17,12 +17,12 @@ Run the image:
 ```
 docker run -p 8000:8000 openelwynn-server
 ```
-After that the server is ready to handle incoming connections on port 8000.
+After that, the server is ready to handle incoming connections on port 8000.
 ## Users
-Image comes with two default users:
+The image comes with two default users:
 
 * ai - user for the game AI, default password: ai
-* local - admin user, default passowrd: local
+* local - admin user, default password: local
 ## Contact
 * Isangeles <<ds@isangeles.dev>>
 
