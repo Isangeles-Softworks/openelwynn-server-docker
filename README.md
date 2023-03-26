@@ -7,7 +7,7 @@ Image installs the latest [Fire](https://github.com/isangeles/fire) server, pull
 
 Exposed port `8000` is used for server connection.
 
-For more information about capabilities read [Fire](https://github.com/isangeles/fire) repository description.
+For more information about server capabilities read [Fire](https://github.com/isangeles/fire) repository description.
 ## Build & Run
 Build the image:
 ```
