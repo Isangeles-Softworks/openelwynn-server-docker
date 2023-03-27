@@ -1,9 +1,7 @@
 ## Introduction
 This is the repository for the Docker image of [OpenElwynn](https://github.com/isangeles-softworks/openelwynn) game server.
 
-Image uses [Fire](https://github.com/isangeles/fire) as a game server.
-
-Image installs the latest [Fire](https://github.com/isangeles/fire) server, pulls the game [content](https://github.com/isangeles/elwynn), and builds the game server.
+Image installs the latest [Fire](https://github.com/isangeles/fire) server and pulls the game [content](https://github.com/isangeles/elwynn).
 
 Exposed port `8000` is used for server connection.
 
