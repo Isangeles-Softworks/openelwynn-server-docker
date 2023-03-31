@@ -20,7 +20,7 @@ After that, the server is ready to handle incoming connections on port 8000.
 The image comes with two default users:
 
 * ai - user for the game AI, default password: ai
-* local - admin user, default password: local
+* admin - admin user, default password: admin
 ## Contact
 * Isangeles <<ds@isangeles.dev>>
 
