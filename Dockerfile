@@ -11,7 +11,7 @@ RUN echo $'pass:ai;\nchar-flags:igniteNpc' > /go/bin/data/users/ai/.user
 RUN mkdir -p /go/bin/data/users/admin
 RUN echo $'pass:admin;\nadmin:true;\nchar-flags:adminUserChar' > /go/bin/data/users/admin/.user
 # Create the server config file.
-RUN echo $'module:elwynn\nhost:\nport:8000' > /go/bin/.fire
+RUN echo $'module:elwynn\nhost:\nport:8000;\nupdate-break:16' > /go/bin/.fire
 # Expose game server port.
 EXPOSE 8000
 # Run server from gobin dir.
